@@ -1,0 +1,3 @@
+key,rule_type,protocol,from_port,to_port,src_or_dst,desc
+1,ingress,tcp,443,443,0.0.0.0/0,allow all for test
+2,egress,-1,0,0,0.0.0.0/0,Allow OutBound
